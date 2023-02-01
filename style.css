@@ -1,0 +1,93 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+header {
+  background-image: url("fondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-user {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 415px) {
+  header {
+    background-size: contain;
+    background-position: top;
+  }
+  #img-user {
+    max-width: 180px;
+  }
+
+  .px-5 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+
+.design1,
+.design2,
+.design3,
+.design4 {
+  color: #ffff;
+  padding: 5px;
+  background-color: #33a852;
+  border-radius: 25px;
+  outline: 2px solid #33a852;
+  outline-offset: 2px;
+}
+
+.design2 {
+  background-color: #e94234;
+  outline: 2px solid #e94234;
+}
+
+.design3 {
+  background-color: #f9bb07;
+  outline: 2px solid #f9bb07;
+
+  padding: 5%;
+  margin-top: 30px;
+}
+
+.design4 {
+  background-color: #4284f3;
+  outline: 2px solid #4284f3;
+
+  padding: 5%;
+  margin-block: 30px;
+}
+
+ul {
+  padding-inline-start: 0px;
+  margin-top: 20px;
+}
+
+li {
+  padding: 5px 0 5px 0;
+  list-style-type: none;
+}
+
+.progreso {
+  float: right;
+}
+
+.c-green {
+  color: #33a852;
+}
+
+.c-red {
+  color: #e94234;
+}
+
+span {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.letra {
+  opacity: 1;
+}
